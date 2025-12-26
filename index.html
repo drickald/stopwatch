@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button class="theme-btn" data-theme="day" title="Day Mode">☀️</button>
+        <button class="theme-btn" data-theme="night" title="Night Mode">🌙</button>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1>⏱️ Stopwatch</h1>
+        </header>
+
+        <div class="stopwatch-card">
+            <div class="display-section">
+                <h2 id="display">00:00:00:00</h2>
+            </div>
+
+            <div class="controls">
+                <button id="start" class="btn-control btn-start">Start</button>
+                <button id="stop" class="btn-control btn-stop">Stop</button>
+                <button id="reset" class="btn-control btn-reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
